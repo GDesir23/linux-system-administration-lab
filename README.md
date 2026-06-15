@@ -7,7 +7,7 @@ Technologies Used
 * Linux CLI
 * OpenSSH
 
-Objectives
+Main Goals
 
 * Deploy a Linux server
 * Configure storage and networking

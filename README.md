@@ -25,12 +25,15 @@ Skills Demonstrated
 * Command-line administration
 
 Step 1. Ubuntu installation
+
 <img width="1350" height="630" alt="Screenshot 2026-06-15 at 11 39 34 AM" src="https://github.com/user-attachments/assets/e23cb19e-7cdd-45dd-80fb-e945b8c58ebc" />
 
-Step 2. Login screen
+Step 2. Installation Complete
 
+<img width="956" height="682" alt="Screenshot 2026-06-15 at 11 52 47 AM" src="https://github.com/user-attachments/assets/738d7b45-5666-48ea-b381-b5f6a99ecf37" />
 
 Step 3. Successful login
+
 
 Step 4. Running commands
 

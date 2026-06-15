@@ -1,171 +1,88 @@
-* Commands Used in Linux Lab
+# commands.md
 
-System Information
+## System Information
 
-Display Current User
-
+```bash
 whoami
-
-Display Hostname
-
 hostname
-
-Display Ubuntu Version
-
 lsb_release -a
-
-Display IP Address
-
 ip a
+```
 
-⸻
+## Update System
 
-System Updates
-
-Update Package Lists
-
+```bash
 sudo apt update
-
-Upgrade Installed Packages
-
 sudo apt upgrade -y
+```
 
-⸻
+## User Management
 
-User Management
-
-Create a User
-
+```bash
 sudo adduser jsmith
-
-Delete a User
-
-sudo deluser jsmith
-
-View Current User
-
-whoami
-
-⸻
-
-Group Management
-
-Create a Group
-
-sudo groupadd it
-
-Add User to Group
-
-sudo usermod -aG it jsmith
-
-View User Groups
-
+sudo adduser mjones
+who
 groups jsmith
+```
 
-⸻
+## Group Management
 
-File and Directory Management
+```bash
+sudo groupadd it
+sudo groupadd hr
+sudo usermod -aG it jsmith
+sudo usermod -aG hr mjones
+```
 
-Create a Directory
+## Files & Directories
 
-mkdir company
-
-Create Multiple Directories
-
-mkdir hr it finance
-
-List Files
-
-ls
-
-List Detailed Information
-
-ls -la
-
-Change Directory
-
-cd directory_name
-
-Display Current Directory
-
+```bash
 pwd
-
-⸻
-
-File Permissions
-
-Change Ownership
-
-sudo chown jsmith file.txt
-
-Change Permissions
-
-chmod 755 file.txt
-
-View Permissions
-
+ls
 ls -l
+mkdir Projects
+cd Projects
+cp file1.txt backup.txt
+mv oldfile.txt newfile.txt
+rm filename.txt
+rm -r directoryname
+```
 
-⸻
+## Permissions
 
-System Monitoring
+```bash
+chmod 755 filename
+sudo chown username:group filename
+```
 
-View Disk Usage
+## Monitoring
 
+```bash
 df -h
-
-View Memory Usage
-
 free -h
-
-View Running Processes
-
 top
+```
 
-View CPU Information
+## Networking & SSH
 
-lscpu
-
-⸻
-
-Networking
-
-View Network Interfaces
-
-ip a
-
-Test Network Connectivity
-
+```bash
 ping google.com
-
-Display Routing Table
-
-ip route
-
-⸻
-
-SSH
-
-Verify SSH Service Status
-
-systemctl status ssh
-
-Start SSH Service
-
-sudo systemctl start ssh
-
-Enable SSH at Boot
-
+sudo systemctl status ssh
 sudo systemctl enable ssh
+```
 
-⸻
+## System Control
 
-Shutdown and Reboot
-
-Reboot Server
-
+```bash
 sudo reboot
-
-Shut Down Server
-
 sudo shutdown now
+exit
+```
+
+## Server Details
+
+* Hostname: `ubuntu-server01`
+* OS: `Ubuntu Server 26.04 LTS ARM64`
+* Platform: `VirtualBox 7.2.8`
+* User: `galid23`
+

@@ -33,4 +33,5 @@ Step 2. Login screen
 Step 3. Successful login
 
 Step 4. Running commands
+
 <img width="641" height="457" alt="Screenshot 2026-06-15 at 11 28 53 AM" src="https://github.com/user-attachments/assets/2c08e151-30ed-436b-8fdc-719468640d60" />

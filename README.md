@@ -34,6 +34,7 @@ Step 2. Installation Complete
 
 Step 3. Successful login
 
+<img width="638" height="457" alt="Screenshot 2026-06-15 at 11 56 16 AM" src="https://github.com/user-attachments/assets/dd14561d-43f8-421b-8bb3-48e85019d770" />
 
 Step 4. Running commands
 

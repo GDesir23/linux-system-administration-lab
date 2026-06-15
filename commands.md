@@ -1,4 +1,4 @@
-Linux System Administration Lab - Commands Reference
+* Commands Used in Linux Lab
 
 System Information
 
